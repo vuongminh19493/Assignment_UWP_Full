@@ -1,0 +1,53 @@
+﻿<Page
+    x:Class="Assignment_UWP_Full.Pages.SongForm"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment_UWP_Full.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot Background="{ThemeResource SystemControlAccentAcrylicWindowAccentMediumHighBrush}">
+        <Pivot.TitleTemplate>
+            <DataTemplate>
+                <Grid>
+                    <TextBlock Text="Upload Song" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"/>
+                </Grid>
+            </DataTemplate>
+        </Pivot.TitleTemplate>
+        <PivotItem Margin="0">
+    <Grid Background="{ThemeResource AutoSuggestBackgroundThemeBrush}">
+        <ScrollViewer Margin="30">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Width="500">
+
+                <TextBlock>Name</TextBlock>
+                <TextBox x:ConnectionId='3' x:Name="Name" CornerRadius="15"/>
+                <TextBlock x:ConnectionId='4' x:Name="NameMessage" FontStyle="Italic" Foreground="Red" ></TextBlock>
+                <TextBlock>Description</TextBlock>
+                <TextBox x:ConnectionId='5' x:Name="Description" CornerRadius="15"/>
+                <TextBlock x:ConnectionId='6' x:Name="DescriptionMessage" FontStyle="Italic" Foreground="Red"/>
+                <TextBlock>Singer</TextBlock>
+                <TextBox x:ConnectionId='7' x:Name="Singer" CornerRadius="15"/>
+                <TextBlock x:ConnectionId='8' x:Name="SingerMessage" FontStyle="Italic" Foreground="Red"/>
+                <TextBlock >Author</TextBlock>
+                <TextBox x:ConnectionId='9' x:Name="Author" CornerRadius="15"/>
+                <TextBlock x:ConnectionId='10' x:Name="AuthorMessage" FontStyle="Italic" Foreground="Red"/>
+                <TextBlock>Thumbnail</TextBlock>
+                <TextBox x:ConnectionId='11' x:Name="Thumbnail" CornerRadius="15"/>
+                <Image x:ConnectionId='12' x:Name="uploadedImage" HorizontalAlignment="Left" Grid.Row="3"></Image>
+                <TextBlock x:ConnectionId='13' x:Name="ThumbnailMessage" Foreground="Red"></TextBlock>
+
+                <TextBlock>Link</TextBlock>
+                <TextBox x:ConnectionId='14' x:Name="Link" CornerRadius="15"></TextBox>
+                <TextBlock x:ConnectionId='15' x:Name="LinkMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+
+                <Button x:ConnectionId='16' Margin="0 10" HorizontalAlignment="Center" CornerRadius="15" Width="80" Height="40" Background="{ThemeResource SystemControlAccentAcrylicWindowAccentMediumHighBrush}"                     >Upload</Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+        </PivotItem>
+        </Pivot>
+    
+</Page>
+

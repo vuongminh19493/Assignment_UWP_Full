@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="Assignment_UWP_Full.Pages.Information"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment_UWP_Full.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:entity="using:Assignment_UWP_Full.Entity"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot Background="{ThemeResource SystemControlAccentAcrylicWindowAccentMediumHighBrush}">
+        <Pivot.TitleTemplate>
+            <DataTemplate>
+                <Grid>
+                    <TextBlock Text="My Information" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"/>
+                </Grid>
+            </DataTemplate>
+        </Pivot.TitleTemplate>
+        <PivotItem Margin="0">
+            <Grid Background="White">
+                <ScrollViewer>
+                    <StackPanel Margin="10" HorizontalAlignment="Center" VerticalAlignment="Top">
+                        <Ellipse Width="100" Height="100">
+                            <Ellipse.Fill>
+                                <ImageBrush x:Name="Avatar"></ImageBrush>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <TextBlock>First Name</TextBlock>
+                        <TextBox x:Name="FirstName" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="FirstNameMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock>Last Name</TextBlock>
+                        <TextBox x:Name="LastName" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="LastNameMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock>Phone</TextBlock>
+                        <TextBox x:Name="Phone" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="PhoneMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock>Address</TextBlock>
+                        <TextBox x:Name="Address" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="AddressMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock>Introduction</TextBlock>
+                        <TextBox x:Name="Introduction" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="IntroductionMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock Text="Gender"/>
+                        <StackPanel Orientation="Horizontal">
+                            <RadioButton Content="Male" x:Name="Male" Tag="0" GroupName="Gender" Checked="RadioButton_Checked"/>
+                            <RadioButton Content="Female" x:Name="Female" Tag="1" GroupName="Gender" Checked="RadioButton_Checked"/>
+                        </StackPanel>
+                        <TextBlock x:Name="GenderMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <DatePicker x:Name="Birthday" Header="Birthday" CornerRadius="15"/>
+                        <TextBlock x:Name="BirthdayMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock>Email</TextBlock>
+                        <TextBox x:Name="Email" CornerRadius="15"></TextBox>
+                        <TextBlock x:Name="EmailMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+                        <TextBlock x:Name="AvatarMessage" FontStyle="Italic" Foreground="Red"></TextBlock>
+
+                    </StackPanel>
+                </ScrollViewer>
+            </Grid>
+        </PivotItem>
+       
+        </Pivot>
+</Page>

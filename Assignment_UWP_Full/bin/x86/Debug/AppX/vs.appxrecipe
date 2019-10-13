@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-KM52UU0</Machine>
+    <WindowsUser>MINHVC</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>556927b0-a677-4151-83ac-44bb1f7078e1</PackageIdentityName>
+    <PackageIdentityPublisher>CN=MINHVC</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>BE592DE6945756544C925473AFED2EFD1584C17703AEADE8C8731748399DB687</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>556927b0-a677-4151-83ac-44bb1f7078e1_1.0.0.0_x86__w582zztysvtg0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>556927b0-a677-4151-83ac-44bb1f7078e1_w582zztysvtg0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>556927b0-a677-4151-83ac-44bb1f7078e1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=MINHVC</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-10-13T19:19:25.409</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Assignment_UWP_Full.exe">
+      <PackagePath>entrypoint\Assignment_UWP_Full.exe</PackagePath>
+      <Modified>2019-10-13T19:19:24.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-05-05T04:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2019-03-15T15:15:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\microsoft.toolkit.uwp\5.1.1\lib\uap10.0.16299\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2019-03-15T15:15:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-10-19T10:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-10-19T10:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+      <Modified>2016-04-22T09:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+      <Modified>2016-04-22T09:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\mvvmlightlibs\5.3.0\lib\windows81\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+      <Modified>2016-04-22T09:28:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T06:57:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T07:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\win2d.uwp\1.19.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-08-09T01:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.common\2.4.17005.1\lib\portable46-net451+win81\WinUX.Common.dll">
+      <PackagePath>WinUX.Common.dll</PackagePath>
+      <Modified>2017-01-05T07:41:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp\2.4.17005.1\lib\.NETCore50\WinUX.UWP.dll">
+      <PackagePath>WinUX.UWP.dll</PackagePath>
+      <Modified>2017-01-05T07:41:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp.mvvmlight\2.4.17005.1\lib\.NETCore50\WinUX.UWP.MvvmLight.dll">
+      <PackagePath>WinUX.UWP.MvvmLight.dll</PackagePath>
+      <Modified>2017-01-05T07:41:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp.xaml\2.4.17005.1\lib\.NETCore50\WinUX.UWP.Xaml.dll">
+      <PackagePath>WinUX.UWP.Xaml.dll</PackagePath>
+      <Modified>2017-01-05T07:41:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp.xaml.controls\2.4.17005.1\lib\.NETCore50\WinUX.UWP.Xaml.Controls.dll">
+      <PackagePath>WinUX.UWP.Xaml.Controls.dll</PackagePath>
+      <Modified>2017-01-05T07:41:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\writeablebitmapex\1.5.0\lib\NetCore45\WriteableBitmapEx.WinRT.dll">
+      <PackagePath>WriteableBitmapEx.WinRT.dll</PackagePath>
+      <Modified>2015-03-31T09:28:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\win2d.uwp\1.19.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-08-09T01:14:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T11:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-10-10T03:29:01.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-24T04:10:19.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Assignment_UWP_Full.xr.xml">
+      <PackagePath>Assignment_UWP_Full.xr.xml</PackagePath>
+      <Modified>2019-10-13T18:54:38.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\AccountForm.xbf">
+      <PackagePath>Pages\AccountForm.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\Information.xbf">
+      <PackagePath>Pages\Information.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\ListSong.xbf">
+      <PackagePath>Pages\ListSong.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\LoginForm.xbf">
+      <PackagePath>Pages\LoginForm.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\MyListSong.xbf">
+      <PackagePath>Pages\MyListSong.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\RegisterForm.xbf">
+      <PackagePath>Pages\RegisterForm.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.922</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\SettingsPage.xbf">
+      <PackagePath>Pages\SettingsPage.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Pages\SongForm.xbf">
+      <PackagePath>Pages\SongForm.xbf</PackagePath>
+      <Modified>2019-10-13T19:19:23.923</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T10:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp.xaml\2.4.17005.1\lib\netcore50\WinUX.UWP.Xaml\WinUX.UWP.Xaml.xr.xml">
+      <PackagePath>WinUX.UWP.Xaml\WinUX.UWP.Xaml.xr.xml</PackagePath>
+      <Modified>2017-01-05T07:41:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\.nuget\packages\winux.uwp.xaml.controls\2.4.17005.1\lib\netcore50\WinUX.UWP.Xaml.Controls\WinUX.UWP.Xaml.Controls.xr.xml">
+      <PackagePath>WinUX.UWP.Xaml.Controls\WinUX.UWP.Xaml.Controls.xr.xml</PackagePath>
+      <Modified>2017-01-05T07:41:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-10-13T17:11:55.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MINHVC\source\repos\Assignment_UWP_Full\Assignment_UWP_Full\bin\x86\Debug\Core\Assignment_UWP_Full.exe">
+      <PackagePath>Assignment_UWP_Full.exe</PackagePath>
+      <Modified>2019-10-13T19:19:25.403</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

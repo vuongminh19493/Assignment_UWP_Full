@@ -1,0 +1,61 @@
+﻿<Page
+    x:Class="Assignment_UWP_Full.Pages.MyListSong"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment_UWP_Full.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:entity="using:Assignment_UWP_Full.Entity"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Pivot Background="{ThemeResource SystemControlAccentAcrylicWindowAccentMediumHighBrush}">
+        <Pivot.TitleTemplate>
+            <DataTemplate>
+                <Grid>
+                    <TextBlock Text="My List Song" Style="{ThemeResource HeaderTextBlockStyle}" Foreground="White"/>
+                </Grid>
+            </DataTemplate>
+        </Pivot.TitleTemplate>
+        <PivotItem Margin="0">
+            <Grid Background="{ThemeResource AutoSuggestBackgroundThemeBrush}">
+        <ScrollViewer>
+            <StackPanel>
+                <ListView x:Name="ListViewSong" DoubleTapped="ListViewSong_OnDoubleTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="entity:Song">
+                            <StackPanel Margin="0, 10, 0, 10" Orientation="Horizontal" Tapped="SelectSong" Tag="{Binding}">
+                                <Ellipse Width="77" Height="77">
+                                    <Ellipse.Fill>
+                                        <ImageBrush ImageSource="{x:Bind thumbnail}"></ImageBrush>
+                                    </Ellipse.Fill>
+                                </Ellipse>
+                                <StackPanel Margin="10, 10, 0, 0">
+                                    <TextBlock Text="{x:Bind name}" Style="{ThemeResource BaseTextBlockStyle}"></TextBlock>
+                                    <TextBlock Text="{x:Bind singer}" Style="{ThemeResource CaptionTextBlockStyle}"></TextBlock>
+                                    <TextBlock Text="{x:Bind author}" Style="{ThemeResource CaptionTextBlockStyle}"></TextBlock>
+                                </StackPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+        </ScrollViewer>
+
+        <StackPanel VerticalAlignment="Bottom">
+            <MediaElement x:Name="MyMediaPlayer1"/>
+            <CommandBar>
+                <AppBarSeparator/>
+                <AppBarButton x:Name="PreviousButton" Icon="Previous" Label="Previous" Click="PreviousButton_OnClick"/>
+                <AppBarButton x:Name="StatusButton" Icon="Play" Label="Play" Click="StatusButton_OnClick"/>
+                <AppBarButton x:Name="NextButton" Icon="Next" Label="Next" Click="NextButton_OnClick"/>
+                <CommandBar.Content>
+                    <TextBlock x:Name="ControlLabel" Text="Please choose a song." Margin="12,14"/>
+                </CommandBar.Content>
+            </CommandBar>
+        </StackPanel>
+
+    </Grid>
+            </PivotItem>
+            </Pivot>
+</Page>
