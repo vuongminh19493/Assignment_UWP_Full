@@ -99,11 +99,7 @@ namespace Assignment_UWP_Full.Pages
 
 
 
-        private void ListViewSong_OnDoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
-        {
-
-        }
-
+       
         private void PreviousButton_OnClick(object sender, RoutedEventArgs e)
         {
             _currentIndex--;
