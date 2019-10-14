@@ -141,9 +141,27 @@ namespace Assignment_UWP_Full.Pages
                 MemberServiceImp memberServiceImp = new MemberServiceImp();
                 member = memberServiceImp.Register(member);
                 Debug.WriteLine(Birthday);
+                GoToLogin(null,null);
 
         }
+        private void GoToLogin(object sender, RoutedEventArgs e)
+        {
+            Home home = FindParent<Home>(this);
+            if (home != null)
+            {
+                home.TheContentFrame.Navigate(typeof(AccountForm));
+            }
+        }
 
+        public static T FindParent<T>(DependencyObject dependencyObject) where T : DependencyObject
+        {
+            var parent = VisualTreeHelper.GetParent(dependencyObject);
+
+            if (parent == null) return null;
+
+            var parentT = parent as T;
+            return parentT ?? FindParent<T>(parent);
+        }
         private void ResetMessage()
         {
             FirstNameMessage.Visibility = Visibility.Collapsed;

@@ -178,6 +178,11 @@ namespace Assignment_UWP_Full.Pages
                 //    ((NavigationViewItem)NavView.SelectedItem)?.Content?.ToString();
             }
         }
-        
+        public Frame TheContentFrame
+        {
+            get => ContentFrame;
+        }
+
+
     }
 }

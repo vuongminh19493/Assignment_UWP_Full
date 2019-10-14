@@ -59,7 +59,7 @@ namespace Assignment_UWP_Full.Pages
             var token = memberServiceImp.GetTokenFromApi(memberLogin);
             var member = memberServiceImp.GetInformation(token);
             ResetLoginForm();
-            
+            GoToInfo(null,null);
 
         }
 
@@ -79,7 +79,24 @@ namespace Assignment_UWP_Full.Pages
             this.Email.Text = string.Empty;
             this.Password.Password = string.Empty;
         }
+        private void GoToInfo(object sender, RoutedEventArgs e)
+        {
+            Home home = FindParent<Home>(this);
+            if (home != null)
+            {
+                home.TheContentFrame.Navigate(typeof(Information));
+            }
+        }
 
+        public static T FindParent<T>(DependencyObject dependencyObject) where T : DependencyObject
+        {
+            var parent = VisualTreeHelper.GetParent(dependencyObject);
+
+            if (parent == null) return null;
+
+            var parentT = parent as T;
+            return parentT ?? FindParent<T>(parent);
+        }
         private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
         {
 

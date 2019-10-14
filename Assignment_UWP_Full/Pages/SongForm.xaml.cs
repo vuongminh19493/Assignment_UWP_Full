@@ -115,8 +115,26 @@ namespace Assignment_UWP_Full.Pages
 
             SongService songService = new SongService();
             songService.PostSong(song);
+            GoToListSong(null,null);
+        }
+        private void GoToListSong(object sender, RoutedEventArgs e)
+        {
+            Home home = FindParent<Home>(this);
+            if (home != null)
+            {
+                home.TheContentFrame.Navigate(typeof(ListSong));
+            }
         }
 
+        public static T FindParent<T>(DependencyObject dependencyObject) where T : DependencyObject
+        {
+            var parent = VisualTreeHelper.GetParent(dependencyObject);
+
+            if (parent == null) return null;
+
+            var parentT = parent as T;
+            return parentT ?? FindParent<T>(parent);
+        }
         private void ResetMessage()
         {
             NameMessage.Visibility = Visibility.Collapsed;
